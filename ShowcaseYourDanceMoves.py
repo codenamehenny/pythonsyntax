@@ -15,5 +15,5 @@ mood = input("How are you feeling today?")
 
 if mood == "happy":
     print("That's great to hear!")
-if mood == "sad": # wasn't sure if it was better to do if or else, as there's numerous possible inputs
+elif mood == "sad": # secondary condition
     print ("I hope your day gets better!")
